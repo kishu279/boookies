@@ -1,0 +1,4 @@
+What to do next
+1. Landing Page
+2. Next Auth
+3. Database (Prisma + Postgress)
