@@ -1,3 +1,4 @@
+import FeaturesSection from "../sections/FeaturesSection";
 import HeroSection from "../sections/HeroSection";
 import NavBar from "../sections/NavBar";
 
@@ -7,9 +8,12 @@ export default function LandingPage() {
       {/* Nav Bar */}
       <NavBar />
 
-      <div className="flex container mx-auto relative top-30 left-0 right-0">
+      <div className="flex container mx-auto relative top-30 left-0 right-0 flex-col">
         {/* Hero Section */}
         <HeroSection />
+
+        {/* Features Section */}
+        <FeaturesSection />
       </div>
     </section>
   );

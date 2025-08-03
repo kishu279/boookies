@@ -1,18 +1,9 @@
-const authorizeYourselfMethods = [
-  { name: "Google" },
-  { name: "Github" },
-  { name: "Twitter" },
-  { name: "Facebook" },
-];
-
-const integrationMethods = [{ name: "" }];
-
 export default function HeroSection() {
   return (
     <section className="relative w-full">
       <div className="mt-16">
         {/* Heading Section */}
-        <div className=" flex flex-col items-center justify-center space-y-4">
+        <div className=" flex flex-col items-center justify-center space-y-4 font-sans">
           <h1 className="text-9xl bg-clip-text bg-gradient-to-br from-white from-28% to-neutral-900 to-90% text-transparent">
             Boookiess
           </h1>
@@ -23,11 +14,6 @@ export default function HeroSection() {
             Save, organize, and instantly access your favorite bookmarks—turn
             scattered links into a personal, searchable knowledge hub.
           </p>
-        </div>
-
-        {/* Authorize Yourself Section */}
-        <div className="">
-          <div></div>
         </div>
       </div>
     </section>

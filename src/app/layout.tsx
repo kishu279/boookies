@@ -35,7 +35,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <div className="bg-neutral-950 h-screen">{children}</div>
           {/* <ToggleButton/> */}
         </ThemeProvider>
       </body>
